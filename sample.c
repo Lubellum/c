@@ -1,24 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-  int no;
-  scanf("%d", &no);
-  switch (no) {
-  case 1:
-    printf("ハリー");
-    break;
-  case 2:
-    printf("ロン");
-    break;
-  case 3:
-    printf("ハーマイオニー");
-    break;
-  case 4:
-    printf("マルフォイ");
-    break;
-  default:
-    printf("正しい番号を入力してください");
-    break;
+  int i;
+  for(i = 1; i <= 10; i++){
+    printf("%d 回目のありがとう\n", i);
   }
   return 0;
 }
