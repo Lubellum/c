@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-int fruits(int apple, int orange);
+int fruits(int apple);
 int main (void){
-    fruits(5, 6);
+    int hoge;
+    hoge = fruits(5);
+    printf("%d", hoge);
     return 0;
 }
 
-int fruits(int apple, int orange){
-    printf("%d", (apple*300)+(orange*200));
-    return 0;
+int fruits(int apple){
+    int kingaku;
+    kingaku = apple * 300;
+    return kingaku;
 }
