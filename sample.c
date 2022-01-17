@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int keisan (int kingaku);
+int fruits(int apple, int orange);
 int main (void){
-    keisan(1000);
+    fruits(5, 6);
     return 0;
 }
 
-int keisan (int kingaku){
-    printf("%f", kingaku * 1.1);
+int fruits(int apple, int orange){
+    printf("%d", (apple*300)+(orange*200));
     return 0;
 }
