@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main (void){
-    char str [5] = {'J', 'O', 'H', 'N', '\0'};
-    printf("%s\n", str);
-    char str2 [] = "JOHN";
-    printf("%s\n", str2);
+    char str [] = "2.56";
+    double suuti = atoi (str);
+    printf("%f", suuti);
     return 0;
 }
