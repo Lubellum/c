@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main (void){
-    int array [5] = {12, 13, 14};
-    int i;
-    for(i = 0; i < sizeof(array) / sizeof(array[0]); i++){
-        printf("%d番目は %d です\n", i, array[i]);
-    }
+    char c = 'A';
+    printf("%c", c);
     return 0;
 }
