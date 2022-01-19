@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main (void){
-    int array [10];
-    array [5] = 15;
-    array [6] = 15;
-    array [7] = 15;
-    array [8] = 15;
-    printf("%d\n", array[5]);
+    int array [5] = {12, 13, 14};
+    printf("%d\n", array[0]);
+    printf("%d\n", array[1]);
     printf("%d\n", array[2]);
+    printf("%d\n", array[3]);
+    printf("%d\n", array[4]);
     return 0;
 }
