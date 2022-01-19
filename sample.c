@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int apple = 10;
 int main (void){
-    int apple = 5;
-    printf("%d", apple);
+    int array [10];
+    array [5] = 15;
+    array [6] = 15;
+    array [7] = 15;
+    array [8] = 15;
+    printf("%d\n", array[5]);
+    printf("%d\n", array[2]);
     return 0;
 }
