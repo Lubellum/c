@@ -2,9 +2,11 @@
 #include <string.h>
 
 int main (void){
-    char str1 [15] = "Star";
-    char str2 [] = "Wars";
-    strcat (str1, str2);
-    printf("%s", str1);
+    char str[20];
+    char str1[] = "Star";
+    char str2[] = "Wars";
+    int i = 3;
+    sprintf(str, "%s%s%d", str1, str2, i);
+    printf("%s", str);
     return 0;
 }
